@@ -16,7 +16,8 @@ virtualenv 取一個名稱
 3->啟動  
 到虛擬環境Scripts目錄中啟動  
 activate  
-  
+
+------------------------------------------------------------------------------  
 -pi4 with dht22-  
   
 https://www.raspberrypi.com/software/  
