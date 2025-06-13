@@ -6,8 +6,8 @@
 Download Windows installer (64-bit)  
   
 1->環境變數  
-C:\Users\P101\AppData\Local\Programs\Python\Python310\Scripts\  
-C:\Users\P101\AppData\Local\Programs\Python\Python310\  
+C:\Users\XXXX\AppData\Local\Programs\Python\Python310\Scripts\  
+C:\Users\XXXX\AppData\Local\Programs\Python\Python310\  
   
 2->安裝virtualenv  
 pip install virtualenv  
