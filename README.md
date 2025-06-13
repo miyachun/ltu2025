@@ -48,15 +48,16 @@ https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuit
 
 ------------------------------------------------------------------------------  
 
--MQTT Pi4-
-sudo apt-get install mosquitto mosquitto-clients
-sudo systemctl enable mosquitto.service
-sudo nano /etc/mosquitto/mosquitto.conf
-listener 1883
-allow_anonymous true
-sudo reboot
-ifconfig
-pip install 'paho-mqtt<2.0.0'
-pip install rpi.gpio
-git clone https://github.com/miyachun/raspberry-pi4-MQTT
+-MQTT Pi4-  
+sudo apt-get install mosquitto mosquitto-clients  
+sudo systemctl enable mosquitto.service  
+sudo nano /etc/mosquitto/mosquitto.conf  
+listener 1883  
+allow_anonymous true  
+sudo reboot  
+ifconfig  
+pip install 'paho-mqtt<2.0.0'  
+pip install rpi.gpio  
+git clone https://github.com/miyachun/raspberry-pi4-MQTT  
+  
 
