@@ -1,0 +1,26 @@
+local screenGui = script.Parent
+local textBox = screenGui:FindFirstChildWhichIsA("TextBox")
+local button = screenGui:FindFirstChildWhichIsA("TextButton")
+
+local secretWord = "123"
+local colorNormal = Color3.new(1, 1, 1) -- white
+local colorWrong = Color3.new(1, 0, 0) -- red
+local colorCorrect = Color3.new(0, 1, 0) -- green
+
+textBox.ClearTextOnFocus = true
+textBox.Text = ""
+textBox.PlaceholderText = "請輸入密碼"
+textBox.BackgroundColor3 = colorNormal
+
+button.MouseButton1Click:Connect(function()
+	local guess = textBox.Text
+	if guess == secretWord then
+		textBox.BackgroundColor3 = colorCorrect
+	else
+		textBox.BackgroundColor3 = colorWrong
+	end
+end)
+
+textBox.Focused:Connect(function()
+	textBox.BackgroundColor3 = colorNormal
+end)
