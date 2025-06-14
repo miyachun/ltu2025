@@ -1,0 +1,26 @@
+print("Hello world!")
+
+--local MainPart=game.Workspace.DisplayFaceAndVectorPart
+
+--[[
+local MainPart=game.Workspace.myPart
+local RedPart=game.Workspace.RedPart
+local GreenPart=game.Workspace.GreenPart
+
+local newCFrame=CFrame.Angles(0,math.rad(0),0)
+
+MainPart.CFrame=newCFrame
+
+]]--
+
+local MainPart=game.Workspace.myPart
+local RedPart=game.Workspace.RedPart
+local GreenPart=game.Workspace.GreenPart
+
+
+local startPosition=MainPart.Position
+local targetPosition=RedPart.Position
+
+local newCFrame=CFrame.new(startPosition, targetPosition)
+
+MainPart.CFrame=newCFrame
