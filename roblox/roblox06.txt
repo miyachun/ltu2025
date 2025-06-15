@@ -1,0 +1,76 @@
+local gui = script.Parent
+
+-- 建立元件
+local label = Instance.new("TextLabel")
+label.Size = UDim2.new(0, 200, 0, 50)
+label.Position = UDim2.new(0.5, -100, 0.3, 0)
+label.BackgroundColor3 = Color3.fromRGB(255,255,255)
+label.TextColor3 = Color3.fromRGB(0,0,0)
+label.Font = Enum.Font.SourceSans
+label.TextSize = 32
+label.Text = ""
+label.Parent = gui
+
+local textBox = Instance.new("TextBox")
+textBox.Size = UDim2.new(0, 200, 0, 50)
+textBox.Position = UDim2.new(0.5, -100, 0.45, 0)
+textBox.BackgroundColor3 = Color3.fromRGB(230,230,230)
+textBox.TextColor3 = Color3.fromRGB(0,0,0)
+textBox.Font = Enum.Font.SourceSans
+textBox.TextSize = 28
+textBox.PlaceholderText = "請輸入"
+textBox.ClearTextOnFocus = true
+textBox.Text = ""
+textBox.Parent = gui
+
+local button = Instance.new("TextButton")
+button.Size = UDim2.new(0, 120, 0, 40)
+button.Position = UDim2.new(0.5, -60, 0.6, 0)
+button.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+button.TextColor3 = Color3.fromRGB(255,255,255)
+button.Font = Enum.Font.SourceSansBold
+button.TextSize = 26
+button.Text = "確認"
+button.Parent = gui
+
+-- 顏色設定
+local colorNormal = Color3.fromRGB(230,230,230)
+local colorCorrect = Color3.fromRGB(0, 255, 0)
+local colorWrong = Color3.fromRGB(255, 0, 0)
+
+-- 題目與邏輯
+local a = math.random(1, 10)
+local b = math.random(1, 10)
+local answer = a + b
+label.Text = tostring(a).." + "..tostring(b).." = ?"
+
+local chances = 3
+local wrongCount = 0
+local quizEnded = false
+
+button.MouseButton1Click:Connect(function()
+	if quizEnded then return end
+	local userInput = tonumber(textBox.Text)
+	if userInput == answer then
+		textBox.BackgroundColor3 = colorCorrect
+		button.Text = "答對了！"
+		quizEnded = true
+	else
+		textBox.BackgroundColor3 = colorWrong
+		wrongCount = wrongCount + 1
+		if wrongCount >= chances then
+			button.Text = "顯示答案"
+			quizEnded = true
+			task.wait(0.8)
+			textBox.Text = tostring(answer)
+			textBox.BackgroundColor3 = colorNormal
+			button.Text = "正確答案"
+		else
+			button.Text = "再試一次 ("..tostring(chances-wrongCount).."次)"
+		end
+	end
+end)
+
+textBox.Focused:Connect(function()
+	textBox.BackgroundColor3 = colorNormal
+end)
