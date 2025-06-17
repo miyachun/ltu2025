@@ -1,30 +1,26 @@
-local screenGui = script.Parent
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
+local rotateEvent = ReplicatedStorage:WaitForChild("RotatePartEvent")
 
+local part = Workspace:FindFirstChild("Part") or Workspace:FindFirstChild("Instance_0_705709")
+if not part then
+    warn("Part not found in Workspace!")
+    return
+end
 
-local label = Instance.new("TextLabel")
-label.Size = UDim2.new(0, 200, 0, 50)
-label.Position = UDim2.new(0.5, -100, 0.3, 0)
-label.BackgroundColor3 = Color3.fromRGB(255,255,255)
-label.TextColor3 = Color3.fromRGB(0,0,0)
-label.Font = Enum.Font.SourceSans
-label.TextSize = 32
-label.Text = ""
-label.Parent = screenGui
-
-
-local button = Instance.new("TextButton")
-button.Size = UDim2.new(0, 120, 0, 40)
-button.Position = UDim2.new(0.5, -60, 0.6, 0)
-button.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
-button.TextColor3 = Color3.fromRGB(255,255,255)
-button.Font = Enum.Font.SourceSansBold
-button.TextSize = 26
-button.Text = "確認"
-button.Parent = screenGui
-
-local quizEnded = false
-
-button.MouseButton1Click:Connect(function()
-	if quizEnded then return end
-	label.Text = "Hello World"
+rotateEvent.OnServerEvent:Connect(function(player)
+    -- 隨機選擇一個朝向（正面、背面、左、右、上、下）
+    local faces = {
+        Vector3.new(0, 0, 0), -- 正面
+        Vector3.new(0, math.rad(180), 0), -- 背面
+        Vector3.new(0, math.rad(90), 0), -- 右
+        Vector3.new(0, math.rad(-90), 0), -- 左
+        Vector3.new(math.rad(90), 0, 0), -- 上
+        Vector3.new(math.rad(-90), 0, 0), -- 下
+    }
+    local index = math.random(1, #faces)
+    local rot = faces[index]
+    local cf = part.CFrame
+    -- 保持位置，只改旋轉
+    part:PivotTo(CFrame.new(cf.Position) * CFrame.Angles(rot.X, rot.Y, rot.Z))
 end)
