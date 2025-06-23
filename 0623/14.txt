@@ -1,0 +1,26 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
+local rotateEvent = ReplicatedStorage:WaitForChild("RotatePartEvent")
+
+local part = Workspace:FindFirstChild("Part") or Workspace:FindFirstChild("Instance_0_705709")
+if not part then
+	warn("Part not found in Workspace!")
+	return
+end
+
+rotateEvent.OnServerEvent:Connect(function(player)
+	-- 隨機選擇一個朝向（正面、背面、左、右、上、下）
+	local faces = {
+		Vector3.new(0, 0, 0), -- 正面
+		Vector3.new(0, math.rad(180), 0), -- 背面
+		Vector3.new(0, math.rad(90), 0), -- 右
+		Vector3.new(0, math.rad(-90), 0), -- 左
+		Vector3.new(math.rad(90), 0, 0), -- 上
+		Vector3.new(math.rad(-90), 0, 0), -- 下
+	}
+	local index = math.random(1, #faces)
+	local rot = faces[index]
+	local cf = part.CFrame
+	-- 保持位置，只改旋轉
+	part:PivotTo(CFrame.new(cf.Position) * CFrame.Angles(rot.X, rot.Y, rot.Z))
+end)
