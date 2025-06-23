@@ -10,6 +10,7 @@ https://opendata.taichung.gov.tw/
 https://opendata.taichung.gov.tw/search?sort=view_count_desc   
 
 政府資料開放平台  
+https://data.gov.tw  
 https://data.gov.tw/dataset/145036  
   
 ------------------------------------------------------------------------------  
