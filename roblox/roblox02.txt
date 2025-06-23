@@ -1,4 +1,0 @@
-script.Parent.ClickDetector.MouseClick:Connect(function()
-	game.Workspace.Door.Transparency=0.5
-	game.Workspace.Door.CanCollide=false
-end)
