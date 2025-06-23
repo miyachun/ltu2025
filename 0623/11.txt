@@ -1,0 +1,8 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local rotateEvent = ReplicatedStorage:WaitForChild("RotatePartEvent")
+
+local button = script.Parent
+
+button.MouseButton1Click:Connect(function()
+	rotateEvent:FireServer()
+end)
