@@ -1,0 +1,14 @@
+--print("Hello world!")
+local screenGui=script.Parent
+local button=screenGui:FindFirstChildWhichIsA("TextButton")
+local label=screenGui:FindFirstChildWhichIsA("TextLabel")
+
+local quizEnded = false
+
+button.MouseButton1Click:Connect(function()
+	
+	if quizEnded then return end 
+	
+	label.Text="Hello World"	
+	
+end)
