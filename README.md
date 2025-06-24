@@ -26,6 +26,7 @@ https://create.roblox.com/store/asset/948084095/Tag-Editor
 Download Windows installer (64-bit)  
   
 1->環境變數  
+C:\Users\user\AppData\Local\Programs\Python  
 C:\Users\XXXX\AppData\Local\Programs\Python\Python310\Scripts\  
 C:\Users\XXXX\AppData\Local\Programs\Python\Python310\  
   
