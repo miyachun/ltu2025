@@ -1,0 +1,23 @@
+a=100
+
+if a<=60:
+    print('a>60')
+
+b=100
+if b<100:
+    print('b<100')
+else:
+    print('b>=100')
+
+
+c=59
+if c>=90:
+    print('A')
+elif c>=80:
+    print('B')
+elif c>=70:
+    print('C')
+elif c>=60:
+    print('D')
+else:
+    print('NO')
