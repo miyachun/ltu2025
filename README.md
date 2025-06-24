@@ -1,3 +1,6 @@
+python練習  
+https://bdesigner.star-kids.info/  
+  
 BMI  
 https://depart.femh.org.tw/dietary/3OPD/BMI.htm  
   
