@@ -21,3 +21,21 @@ elif c>=60:
     print('D')
 else:
     print('NO')
+
+
+d=79
+if d<=100 and d>=90 :
+    print('A')
+elif d<=89 and d>=80:
+    print('B')
+elif d<=79 and d>=70:
+    print('C')
+elif d<=69 and d>=60 :
+    print('D')
+elif d<=59 and d>=0:
+    print('NO')
+else:
+    print('XX')
+
+
+
