@@ -1,12 +1,15 @@
+相關  
+
+
+
 python練習  
 https://bdesigner.star-kids.info/  
 https://www.w3schools.com/python/default.asp  
 https://www.runoob.com/lua/lua-tutorial.html  
   
-BMI  
-https://depart.femh.org.tw/dietary/3OPD/BMI.htm  
-  
-  
+氣象資料  
+https://opendata.cwa.gov.tw/index  
+
 台中市政府資料開放平臺  
 https://opendata.taichung.gov.tw/   
 https://opendata.taichung.gov.tw/search?sort=view_count_desc   
@@ -42,11 +45,6 @@ virtualenv 取一個名稱
 3->啟動  
 到虛擬環境Scripts目錄中啟動  
 activate  
-
-
-------------------------------------------------------------------------------  
-相關  
-virtualenv->virtualenv -p python3.10 XXX  
 
 ------------------------------------------------------------------------------  
 -pi4 with dht22-  
