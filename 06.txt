@@ -1,0 +1,11 @@
+import random
+a=random.randint(2,5)
+b=random.randint(2,5)
+
+print('a=',a,'b=',b,'加總?')
+c=int(input('輸入答案:'))
+
+if c==(a+b):
+    print('OK')
+else:
+    print('NO')
