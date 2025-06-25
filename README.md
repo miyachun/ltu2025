@@ -1,5 +1,7 @@
 python練習  
 https://bdesigner.star-kids.info/  
+https://www.w3schools.com/python/default.asp  
+https://www.runoob.com/lua/lua-tutorial.html  
   
 BMI  
 https://depart.femh.org.tw/dietary/3OPD/BMI.htm  
@@ -12,10 +14,6 @@ https://opendata.taichung.gov.tw/search?sort=view_count_desc
 政府資料開放平台  
 https://data.gov.tw  
 https://data.gov.tw/dataset/145036  
-
-
-lua  
-https://www.runoob.com/lua/lua-tutorial.html  
   
 roblox  
 https://create.roblox.com/  
