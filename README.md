@@ -1,7 +1,8 @@
 相關  
 
-
-
+flask  
+https://flask.palletsprojects.com/en/stable/  
+  
 python練習  
 https://bdesigner.star-kids.info/  
 https://www.w3schools.com/python/default.asp  
