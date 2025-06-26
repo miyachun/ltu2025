@@ -1,6 +1,8 @@
 #https://opendata.cwa.gov.tw/dist/opendata-swagger.html
 import json,urllib.request
+import ssl
 
+ssl._create_default_https_context = ssl._create_unverified_context
 API_KEY='XXXX'
 url = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization='+API_KEY+'&format=JSON'
 
