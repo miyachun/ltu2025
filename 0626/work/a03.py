@@ -17,7 +17,7 @@ LocationsName=output['records']['Locations'][0]['LocationsName']
 
 for i in location:
     city = i['LocationName']   #區域
-    WeatherElement	 = i['WeatherElement'][0]['Time']
+    WeatherElement = i['WeatherElement'][0]['Time']
     print(f'{LocationsName}的{city}一周溫度:')
     for j in WeatherElement	:
         time=j['StartTime']
