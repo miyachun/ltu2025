@@ -5,11 +5,8 @@ import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-
 API_KEY='XXXX'
-
-url='https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-D0047-073?Authorization=CWB-F6A0BAC9-E773-4B09-B048-D30A55EEBED2&ElementName=%E6%BA%AB%E5%BA%A6'
-
+url='https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-D0047-073?Authorization='+API_KEY+'&ElementName=%E6%BA%AB%E5%BA%A6'
 
 data = urllib.request.urlopen(url).read()
 output = json.loads(data)
