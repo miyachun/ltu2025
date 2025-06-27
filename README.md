@@ -1,7 +1,7 @@
 相關  
 
 sqlitebrowser  
-https://sqlitebrowser.org/  
+https://sqlitebrowser.org/dl/    
 
 ngrok  
 https://ngrok.com/  
