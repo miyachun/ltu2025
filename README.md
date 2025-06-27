@@ -1,4 +1,8 @@
 相關  
+  
+剪刀石頭布(rock-paper-scissors)，資料集->https://universe.roboflow.com/hiraki/rock-paper-scissors-rbzgd/dataset/2  
+smeshariks集料集->https://universe.roboflow.com/khalina/smeshariks/dataset/2  
+
 
 sqlitebrowser  
 https://sqlitebrowser.org/dl/    
