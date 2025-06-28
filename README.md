@@ -64,21 +64,13 @@ virtualenv 取一個名稱
 activate  
 
 ------------------------------------------------------------------------------  
-樹莓派安裝  
-軟體:https://www.raspberrypi.com/software/  
-putty:https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html  
-
-
-
-
-
-
 -pi4 with dht22-  
-  
-https://www.raspberrypi.com/software/  
-https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html  
-https://www.realvnc.com/en/connect/download/viewer/?lai_sr=0-4&lai_sl=l  
-https://images.theengineeringprojects.com/image/webp/2021/03/raspberry-pi-4.png.webp?ssl=1  
+
+相關軟體:    
+樹莓派軟體:https://www.raspberrypi.com/software/  
+putty軟體:https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html  
+vnc軟體:https://www.realvnc.com/en/connect/download/viewer/?lai_sr=0-4&lai_sl=l  
+板子:https://images.theengineeringprojects.com/image/webp/2021/03/raspberry-pi-4.png.webp?ssl=1  
   
 *指令:  
 sudo apt update  
