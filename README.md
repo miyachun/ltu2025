@@ -2,7 +2,7 @@
   
 剪刀石頭布(rock-paper-scissors)，資料集->https://universe.roboflow.com/hiraki/rock-paper-scissors-rbzgd/dataset/2  
 
-![image](rock.png)  
+![image](rock.jpg)  
 
 
 sqlitebrowser  
