@@ -64,6 +64,14 @@ virtualenv 取一個名稱
 activate  
 
 ------------------------------------------------------------------------------  
+樹莓派安裝  
+https://www.raspberrypi.com/software/  
+
+
+
+
+
+
 -pi4 with dht22-  
   
 https://www.raspberrypi.com/software/  
