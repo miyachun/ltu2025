@@ -65,7 +65,8 @@ activate
 
 ------------------------------------------------------------------------------  
 樹莓派安裝  
-https://www.raspberrypi.com/software/  
+軟體:https://www.raspberrypi.com/software/  
+putty:https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html  
 
 
 
