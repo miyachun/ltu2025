@@ -68,6 +68,8 @@ activate
 
 line Developers  
 https://developers.line.biz/zh-hant/  
+line-bot-sdk  
+
 
 ------------------------------------------------------------------------------  
 -pi4 with dht22-  
