@@ -4,10 +4,6 @@
 
 ![image](rock.jpg)  
 
-APP INVENTOR  
-https://appinventor.mit.edu/explore/ai2/setup-emulator  
-  
-
 sqlitebrowser  
 https://sqlitebrowser.org/dl/    
 
