@@ -61,7 +61,7 @@ C:\Users\XXXX\AppData\Local\Programs\Python\Python310\
 pip install virtualenv  
 virtualenv 取一個名稱  
 
-指定版本->virtualenv -p python3.10 XXX  
+指定版本->virtualenv -p python3.12 XXX  
   
 3->啟動  
 到虛擬環境Scripts目錄中啟動  
