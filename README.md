@@ -1,5 +1,9 @@
 相關  
-  
+
+ModuleNotFoundError: No module named 'cv2'  
+(myenv313) C:\Users\user\Documents\ltu0630\pythonP>pip install opencv-python  
+
+
 剪刀石頭布(rock-paper-scissors)，資料集->https://universe.roboflow.com/hiraki/rock-paper-scissors-rbzgd/dataset/2  
 
 ![image](rock.jpg)  
