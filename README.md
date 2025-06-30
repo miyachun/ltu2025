@@ -4,7 +4,7 @@
 
 ![image](rock.jpg)  
 
-ultralytics
+ultralytics  
 https://docs.ultralytics.com/zh/models/yolo11/  
 
 sqlitebrowser  
