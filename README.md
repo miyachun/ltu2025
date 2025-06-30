@@ -10,7 +10,7 @@ https://sqlitebrowser.org/dl/
 ngrok  
 https://ngrok.com/  
 
-Visual Studio  
+Visual Studio Code  
 https://code.visualstudio.com/  
 
 Bootstrap  
