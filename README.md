@@ -1,3 +1,7 @@
+
+pip install openai-clip  
+  
+
 相關  
 
 資料集  
