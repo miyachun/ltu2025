@@ -1,14 +1,15 @@
-https://www.google.com/search?sca_esv=8ff83a0cf2859f3b&sxsrf=AE3TifMzco6k_vVMF5mVics3b12F69u7gQ:1751339823645&q=車流量大的影片&udm=7&fbs=AIIjpHybaGNnaZw_4TckIDK59RtxnuemxtCAmfx-1cmcosUmu6wlfvA7k4hRg5q_t4x1SurDkB8rh4KwfQdJQNm_4V0zkxDKhWVrn8JwbOAICATuNiHGVKFXi9wvDpC8sLzZ8URU4T-XKukfAcmybsYY4jQWvdYltco2A_KDjwtM0iDF_mjgQthRKxo5s5ctd5jaTdyqqsyn&sa=X&ved=2ahUKEwjn68ag2ZqOAxUokokEHWCiIjcQtKgLKAF6BAgWEAE&biw=1920&bih=945&dpr=1#fpstate=ive&ip=1&vld=cid:d0a356e2,vid:dfnT-k9xq34,st:0  
-pip install openai-clip  
-  
+ 相關  
 
-相關  
+line Developers  
+https://developers.line.biz/zh-hant/  
+pip install line-bot-sdk  
 
 資料集  
 https://universe.roboflow.com/simulatedbees/bee-hive-vision  
   
 ultralytics  
 https://docs.ultralytics.com/zh/models/yolo11/  
+pip install openai-clip   
 
 sqlitebrowser  
 https://sqlitebrowser.org/dl/    
@@ -68,13 +69,6 @@ virtualenv 取一個名稱
 3->啟動  
 到虛擬環境Scripts目錄中啟動  
 activate  
-
-------------------------------------------------------------------------------  
-
-line Developers  
-https://developers.line.biz/zh-hant/  
-pip install line-bot-sdk  
-
 
 ------------------------------------------------------------------------------  
 -pi4 with dht22-  
@@ -139,8 +133,7 @@ allow_anonymous true
 listener 1883 172.20.10.2 # ip address  
   
 在當地目錄下開啟cmd並輸入以下  
-mosquitto -c mosquitto.conf -v  
-  
+mosquitto -c mosquitto.conf -v    
 pip install "paho-mqtt<2.0.0"  
 
 
