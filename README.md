@@ -1,4 +1,4 @@
-
+https://www.google.com/search?sca_esv=8ff83a0cf2859f3b&sxsrf=AE3TifMzco6k_vVMF5mVics3b12F69u7gQ:1751339823645&q=車流量大的影片&udm=7&fbs=AIIjpHybaGNnaZw_4TckIDK59RtxnuemxtCAmfx-1cmcosUmu6wlfvA7k4hRg5q_t4x1SurDkB8rh4KwfQdJQNm_4V0zkxDKhWVrn8JwbOAICATuNiHGVKFXi9wvDpC8sLzZ8URU4T-XKukfAcmybsYY4jQWvdYltco2A_KDjwtM0iDF_mjgQthRKxo5s5ctd5jaTdyqqsyn&sa=X&ved=2ahUKEwjn68ag2ZqOAxUokokEHWCiIjcQtKgLKAF6BAgWEAE&biw=1920&bih=945&dpr=1#fpstate=ive&ip=1&vld=cid:d0a356e2,vid:dfnT-k9xq34,st:0  
 pip install openai-clip  
   
 
