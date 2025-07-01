@@ -1,5 +1,8 @@
 相關  
 
+資料集  
+https://universe.roboflow.com/simulatedbees/bee-hive-vision  
+  
 ultralytics  
 https://docs.ultralytics.com/zh/models/yolo11/  
 
