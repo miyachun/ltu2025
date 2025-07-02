@@ -8,7 +8,7 @@ GPIO.setup(btn_pin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 while True:
   if GPIO.input(btn_pin) == GPIO.HIGH:
-    print("按下按鈕")
+    print("no")
   elif GPIO.input(btn_pin) == GPIO.LOW:
-    print("未按下按鈕")
+    print("click")
   sleep(0.2)
