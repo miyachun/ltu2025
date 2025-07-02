@@ -1,9 +1,5 @@
  相關  
 
-![image](ai.png)  
-
- 
-
 line Developers  
 https://developers.line.biz/zh-hant/  
 pip install line-bot-sdk  
