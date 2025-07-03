@@ -16,7 +16,7 @@ def home():
   line_bot_api = LineBotApi('LINE_CHANNEL_ACCESS_TOKEN')
   try:
     msg = request.args.get('msg')
-    #https://d1dc-2001-b011-2003-50ee-ac08-51d1-2815-a0cc.ngrok-free.app/?msg=1
+    #https://XXXX.ngrok-free.app/?msg=1
     if msg == '1':
       # 如果 msg 等於 1，發送文字訊息
       line_bot_api.push_message('User ID', TextSendMessage(text='hello'))
