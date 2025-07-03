@@ -5,8 +5,8 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage, ImageSend
 import random
 app = Flask(__name__)
 
-secret='17c2914e2381b70e4c697614728db454'
-token='8uYnUXVel0cqNllw+ORRj0q16HepXCUmc3+zpMTqPxyMnU8csqgf0Lft+35XU8mL6fLsmIYUVyL/kVyExJLL2/3KjGqQ+vt4rd440e/cf51k11nmjKeGrYuHbLobyRx53Z5Va0t9RikDriQIVXnlnQdB04t89/1O/w1cDnyilFU='
+secret='XXXX'
+token='XXXX'
 line_bot_api = LineBotApi(token)
 line_handler = WebhookHandler(secret)
 
