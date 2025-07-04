@@ -5,8 +5,13 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage
 import json,urllib.request
 import os
 import json
+import ssl
+
+
 
 app = Flask(__name__)
+ssl._create_default_https_context = ssl._create_unverified_context
+
 
 token='XXXX'
 secret='XXXX'
