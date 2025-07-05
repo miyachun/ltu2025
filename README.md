@@ -1,11 +1,14 @@
  相關  
 
- sqlite3  
- https://docs.python.org/zh-tw/3.11/library/sqlite3.html  
-  
+html5  
+https://www.runoob.com/html/html5-intro.html  
+
 Echarts  
 https://echarts.apache.org/zh/index.html  
-  
+
+sqlite3  
+https://docs.python.org/zh-tw/3.11/library/sqlite3.html  
+
 jquery  
 https://jqueryui.com/  
 
@@ -39,7 +42,8 @@ https://flask.palletsprojects.com/en/stable/
 python練習  
 https://bdesigner.star-kids.info/  
 https://www.w3schools.com/python/default.asp  
-https://www.runoob.com/lua/lua-tutorial.html  
+https://www.runoob.com/python3/python3-tutorial.html  
+
   
 氣象資料  
 https://opendata.cwa.gov.tw/index  
