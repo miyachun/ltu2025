@@ -1,5 +1,8 @@
  相關  
 
+ sqlite3  
+ https://docs.python.org/zh-tw/3.11/library/sqlite3.html  
+  
 Echarts  
 https://echarts.apache.org/zh/index.html  
   
