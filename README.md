@@ -13,6 +13,10 @@ https://echarts.apache.org/zh/index.html
 sqlite3  
 https://docs.python.org/zh-tw/3.11/library/sqlite3.html  
 
+sqlitebrowser  
+https://sqlitebrowser.org/dl/    
+
+
 jquery  
 https://jqueryui.com/  
 
@@ -27,9 +31,6 @@ https://universe.roboflow.com/simulatedbees/bee-hive-vision
 ultralytics  
 https://docs.ultralytics.com/zh/models/yolo11/  
 pip install openai-clip   
-
-sqlitebrowser  
-https://sqlitebrowser.org/dl/    
 
 ngrok  
 https://ngrok.com/  
