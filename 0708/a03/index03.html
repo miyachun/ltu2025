@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask & Echarts Demo</title>
+    <script src="/static/js/echarts.min.js"></script>  
+</head>
+<body>
+    <h1>108年新竹市重要遊憩據點遊客人次統計</h1>
+    <div id="main"  style="width: 1000px;height:600px;border-style:solid;">
+        <center>顯示圖表</center>
+    </div>
+  
+    <script>
+var chartDom = document.getElementById('main');
+var myChart = echarts.init(chartDom);
+var option;
+var dataName={{dataName|tojson}}
+var data={{data|tojson}}
+
+option = {
+  title:{
+  left:'center',
+  text:'青青草原人次'
+  },
+  xAxis: {
+    type: 'category',
+    data: dataName
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: data,
+      type: 'line',
+      smooth: true
+    }
+  ]
+};
+
+option && myChart.setOption(option);
+
+    </script>
+
+
+</body>
+</html>
