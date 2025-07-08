@@ -8,7 +8,7 @@ df = pd.read_csv('static/people108.csv')
 def index():
     dataName=df.iloc[:,1].tolist()
     data=df.iloc[:,4].tolist()
-    return render_template("myindex02.html", dataName=dataName,data=data)
+    return render_template("index.html", dataName=dataName,data=data)
   
 
 if __name__ == "__main__":
